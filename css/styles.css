@@ -364,7 +364,7 @@ address {
 }
 .preview-list {
   width: calc((100% - 48px) / 3);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .preview-list:nth-child(3n) {
   margin-right: 0;
@@ -393,7 +393,7 @@ address {
   color: #f4f4fd;
   background-color: #4d5ae5;
   transform: translateY(100%);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .preview-list:hover .cover-text,
 .preview-list:focus .cover-text {
