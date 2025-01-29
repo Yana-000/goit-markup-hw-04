@@ -20,10 +20,10 @@ p {
   margin: 0;
 }
 .container {
-  max-weight: 1158px;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  padding-bottom: 120xp;
+  padding-bottom: 120px;
 }
 a {
   text-decoration: none;
