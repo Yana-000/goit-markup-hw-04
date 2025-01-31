@@ -337,9 +337,8 @@ address {
 .content {
   max-width: 1440px;
   background-color: #ffffff;
-  padding-top: 120px;
+  padding: 120px 120px;
 
-  padding-bottom: 120px;
   margin: 0 auto;
 }
 .content-heading {
@@ -358,6 +357,7 @@ address {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
+  column-gap: 24px;
 }
 .preview-list:not(:last-child) {
   margin-bottom: 48px;
